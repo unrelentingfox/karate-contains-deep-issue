@@ -4,7 +4,7 @@ Feature:
     * configure logPrettyRequest = true
     * configure logPrettyResponse = true
 
-  Scenario:
+  Scenario: Compare a nested json object with a string array
     * def actual =
       """
       {
